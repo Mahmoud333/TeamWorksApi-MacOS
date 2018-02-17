@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E11C1B620335C6300143249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1B520335C6300143249 /* AppDelegate.swift */; };
+		1E11C1B820335C6300143249 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1B720335C6300143249 /* LoginVC.swift */; };
+		1E11C1BA20335C6300143249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E11C1B920335C6300143249 /* Assets.xcassets */; };
+		1E11C1BD20335C6300143249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E11C1BB20335C6300143249 /* Main.storyboard */; };
+		1E11C1C920335C6300143249 /* TeamWorksApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1C820335C6300143249 /* TeamWorksApiTests.swift */; };
+		1E11C1DA20335CB200143249 /* RecentActivityServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1D520335CB100143249 /* RecentActivityServices.swift */; };
+		1E11C1DB20335CB200143249 /* AllTasksServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1D620335CB100143249 /* AllTasksServices.swift */; };
+		1E11C1DC20335CB200143249 /* AuthenticateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1D720335CB100143249 /* AuthenticateService.swift */; };
+		1E11C1DD20335CB200143249 /* ProjectsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1D820335CB100143249 /* ProjectsServices.swift */; };
+		1E11C1DE20335CB200143249 /* TasksServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1D920335CB200143249 /* TasksServices.swift */; };
+		1E11C1E320335CC800143249 /* File4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1DF20335CC700143249 /* File4.swift */; };
+		1E11C1E420335CC800143249 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1E020335CC700143249 /* File2.swift */; };
+		1E11C1E520335CC800143249 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1E120335CC700143249 /* File.swift */; };
+		1E11C1E620335CC800143249 /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1E220335CC800143249 /* File3.swift */; };
+		1E11C1E820335FA800143249 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1E720335FA800143249 /* Constants.swift */; };
+		1E11C1EB2033654300143249 /* MAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1EA2033654300143249 /* MAButton.swift */; };
+		1E11C1ED2033813300143249 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11C1EC2033813300143249 /* ActivityVC.swift */; };
+		1E24347320362A310097B10D /* MACollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E24347220362A310097B10D /* MACollectionView.swift */; };
+		1E243477203632250097B10D /* MAWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243476203632250097B10D /* MAWindowController.swift */; };
+		1E243479203632A80097B10D /* ConstantsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243478203632A80097B10D /* ConstantsColors.swift */; };
+		1E2434D220365AE90097B10D /* MAProgressV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2434D120365AE90097B10D /* MAProgressV.swift */; };
+		1E47DB332036027800999E0F /* ActivityVC+Extn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E47DB322036027800999E0F /* ActivityVC+Extn.swift */; };
+		1E4CAB3B2034C10C00D43A4C /* SideBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CAB392034C10C00D43A4C /* SideBarCell.swift */; };
+		1E4CAB3C2034C10C00D43A4C /* SideBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E4CAB3A2034C10C00D43A4C /* SideBarCell.xib */; };
+		1E4CAB3E2035248500D43A4C /* TableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CAB3D2035248500D43A4C /* TableVCell.swift */; };
+		4C9530F654911669522B9BF8 /* Pods_TeamWorksApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E23007F37D6158428FD6C0B /* Pods_TeamWorksApi.framework */; };
+		C327FD2E87C676108ED86CA4 /* Pods_TeamWorksApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144FD7A974E75EBF0EDB9B4B /* Pods_TeamWorksApiTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E11C1C520335C6300143249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E11C1AA20335C6300143249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E11C1B120335C6300143249;
+			remoteInfo = TeamWorksApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144FD7A974E75EBF0EDB9B4B /* Pods_TeamWorksApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamWorksApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E11C1B220335C6300143249 /* TeamWorksApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamWorksApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E11C1B520335C6300143249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E11C1B720335C6300143249 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1E11C1B920335C6300143249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E11C1BC20335C6300143249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E11C1BE20335C6300143249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E11C1BF20335C6300143249 /* TeamWorksApi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeamWorksApi.entitlements; sourceTree = "<group>"; };
+		1E11C1C420335C6300143249 /* TeamWorksApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamWorksApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E11C1C820335C6300143249 /* TeamWorksApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamWorksApiTests.swift; sourceTree = "<group>"; };
+		1E11C1CA20335C6300143249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E11C1D520335CB100143249 /* RecentActivityServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentActivityServices.swift; sourceTree = "<group>"; };
+		1E11C1D620335CB100143249 /* AllTasksServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTasksServices.swift; sourceTree = "<group>"; };
+		1E11C1D720335CB100143249 /* AuthenticateService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticateService.swift; sourceTree = "<group>"; };
+		1E11C1D820335CB100143249 /* ProjectsServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsServices.swift; sourceTree = "<group>"; };
+		1E11C1D920335CB200143249 /* TasksServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksServices.swift; sourceTree = "<group>"; };
+		1E11C1DF20335CC700143249 /* File4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File4.swift; sourceTree = "<group>"; };
+		1E11C1E020335CC700143249 /* File2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
+		1E11C1E120335CC700143249 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		1E11C1E220335CC800143249 /* File3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
+		1E11C1E720335FA800143249 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1E11C1EA2033654300143249 /* MAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAButton.swift; sourceTree = "<group>"; };
+		1E11C1EC2033813300143249 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
+		1E24347220362A310097B10D /* MACollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MACollectionView.swift; sourceTree = "<group>"; };
+		1E243476203632250097B10D /* MAWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAWindowController.swift; sourceTree = "<group>"; };
+		1E243478203632A80097B10D /* ConstantsColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsColors.swift; sourceTree = "<group>"; };
+		1E24347B20364D7A0097B10D /* TeamWorksApi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamWorksApi-Bridging-Header.h"; sourceTree = "<group>"; };
+		1E2434D120365AE90097B10D /* MAProgressV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAProgressV.swift; sourceTree = "<group>"; };
+		1E47DB322036027800999E0F /* ActivityVC+Extn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityVC+Extn.swift"; sourceTree = "<group>"; };
+		1E4CAB392034C10C00D43A4C /* SideBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarCell.swift; sourceTree = "<group>"; };
+		1E4CAB3A2034C10C00D43A4C /* SideBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideBarCell.xib; sourceTree = "<group>"; };
+		1E4CAB3D2035248500D43A4C /* TableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVCell.swift; sourceTree = "<group>"; };
+		2A4002136F01F0A171A89D8C /* Pods-TeamWorksApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorksApiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorksApiTests/Pods-TeamWorksApiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F14A897C11ACA49F907C31D /* Pods-TeamWorksApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorksApiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorksApiTests/Pods-TeamWorksApiTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E23007F37D6158428FD6C0B /* Pods_TeamWorksApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamWorksApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5D82D3E19507A4DFB1D836 /* Pods-TeamWorksApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorksApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorksApi/Pods-TeamWorksApi.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A91548785BF07F7B957D18 /* Pods-TeamWorksApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorksApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorksApi/Pods-TeamWorksApi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E11C1AF20335C6300143249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9530F654911669522B9BF8 /* Pods_TeamWorksApi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E11C1C120335C6300143249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C327FD2E87C676108ED86CA4 /* Pods_TeamWorksApiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E11C1A920335C6300143249 = {
+			isa = PBXGroup;
+			children = (
+				1E11C1B420335C6300143249 /* TeamWorksApi */,
+				1E11C1C720335C6300143249 /* TeamWorksApiTests */,
+				1E11C1B320335C6300143249 /* Products */,
+				2D93851339DE50D910A2626E /* Pods */,
+				82957D661BD49BFFE80AF626 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E11C1B320335C6300143249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E11C1B220335C6300143249 /* TeamWorksApi.app */,
+				1E11C1C420335C6300143249 /* TeamWorksApiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E11C1B420335C6300143249 /* TeamWorksApi */ = {
+			isa = PBXGroup;
+			children = (
+				1E24347A20364D6B0097B10D /* Objective-C */,
+				1E11C1E92033651300143249 /* MA */,
+				1E11C1D420335C8E00143249 /* Services */,
+				1E11C1D320335C8300143249 /* Model */,
+				1E11C1B520335C6300143249 /* AppDelegate.swift */,
+				1E11C1B720335C6300143249 /* LoginVC.swift */,
+				1E11C1EC2033813300143249 /* ActivityVC.swift */,
+				1E47DB322036027800999E0F /* ActivityVC+Extn.swift */,
+				1E11C1B920335C6300143249 /* Assets.xcassets */,
+				1E11C1BB20335C6300143249 /* Main.storyboard */,
+				1E11C1BE20335C6300143249 /* Info.plist */,
+				1E4CAB3D2035248500D43A4C /* TableVCell.swift */,
+				1E11C1BF20335C6300143249 /* TeamWorksApi.entitlements */,
+				1E243478203632A80097B10D /* ConstantsColors.swift */,
+				1E11C1E720335FA800143249 /* Constants.swift */,
+				1E4CAB392034C10C00D43A4C /* SideBarCell.swift */,
+				1E4CAB3A2034C10C00D43A4C /* SideBarCell.xib */,
+			);
+			path = TeamWorksApi;
+			sourceTree = "<group>";
+		};
+		1E11C1C720335C6300143249 /* TeamWorksApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E11C1C820335C6300143249 /* TeamWorksApiTests.swift */,
+				1E11C1CA20335C6300143249 /* Info.plist */,
+			);
+			path = TeamWorksApiTests;
+			sourceTree = "<group>";
+		};
+		1E11C1D320335C8300143249 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E11C1E120335CC700143249 /* File.swift */,
+				1E11C1E020335CC700143249 /* File2.swift */,
+				1E11C1E220335CC800143249 /* File3.swift */,
+				1E11C1DF20335CC700143249 /* File4.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E11C1D420335C8E00143249 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1E11C1D720335CB100143249 /* AuthenticateService.swift */,
+				1E11C1D620335CB100143249 /* AllTasksServices.swift */,
+				1E11C1D820335CB100143249 /* ProjectsServices.swift */,
+				1E11C1D520335CB100143249 /* RecentActivityServices.swift */,
+				1E11C1D920335CB200143249 /* TasksServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1E11C1E92033651300143249 /* MA */ = {
+			isa = PBXGroup;
+			children = (
+				1E11C1EA2033654300143249 /* MAButton.swift */,
+				1E24347220362A310097B10D /* MACollectionView.swift */,
+				1E243476203632250097B10D /* MAWindowController.swift */,
+				1E2434D120365AE90097B10D /* MAProgressV.swift */,
+			);
+			path = MA;
+			sourceTree = "<group>";
+		};
+		1E24347A20364D6B0097B10D /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				1E24347B20364D7A0097B10D /* TeamWorksApi-Bridging-Header.h */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
+		2D93851339DE50D910A2626E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F5D82D3E19507A4DFB1D836 /* Pods-TeamWorksApi.debug.xcconfig */,
+				E5A91548785BF07F7B957D18 /* Pods-TeamWorksApi.release.xcconfig */,
+				2A4002136F01F0A171A89D8C /* Pods-TeamWorksApiTests.debug.xcconfig */,
+				5F14A897C11ACA49F907C31D /* Pods-TeamWorksApiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82957D661BD49BFFE80AF626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E23007F37D6158428FD6C0B /* Pods_TeamWorksApi.framework */,
+				144FD7A974E75EBF0EDB9B4B /* Pods_TeamWorksApiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E11C1B120335C6300143249 /* TeamWorksApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E11C1CD20335C6300143249 /* Build configuration list for PBXNativeTarget "TeamWorksApi" */;
+			buildPhases = (
+				05E134C7837BD527C6AF394E /* [CP] Check Pods Manifest.lock */,
+				1E11C1AE20335C6300143249 /* Sources */,
+				1E11C1AF20335C6300143249 /* Frameworks */,
+				1E11C1B020335C6300143249 /* Resources */,
+				120701E811F55FE7754C6B6A /* [CP] Embed Pods Frameworks */,
+				0D0F349C2DDB3CFAAD386290 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamWorksApi;
+			productName = TeamWorksApi;
+			productReference = 1E11C1B220335C6300143249 /* TeamWorksApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E11C1C320335C6300143249 /* TeamWorksApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E11C1D020335C6300143249 /* Build configuration list for PBXNativeTarget "TeamWorksApiTests" */;
+			buildPhases = (
+				0E9F70E600F1FEAA05EE899F /* [CP] Check Pods Manifest.lock */,
+				1E11C1C020335C6300143249 /* Sources */,
+				1E11C1C120335C6300143249 /* Frameworks */,
+				1E11C1C220335C6300143249 /* Resources */,
+				F412393FD06CB4D60304B7D6 /* [CP] Embed Pods Frameworks */,
+				DDE85565C365B6908B7A143E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E11C1C620335C6300143249 /* PBXTargetDependency */,
+			);
+			name = TeamWorksApiTests;
+			productName = TeamWorksApiTests;
+			productReference = 1E11C1C420335C6300143249 /* TeamWorksApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E11C1AA20335C6300143249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mahmoud SMGL";
+				TargetAttributes = {
+					1E11C1B120335C6300143249 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					1E11C1C320335C6300143249 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E11C1B120335C6300143249;
+					};
+				};
+			};
+			buildConfigurationList = 1E11C1AD20335C6300143249 /* Build configuration list for PBXProject "TeamWorksApi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E11C1A920335C6300143249;
+			productRefGroup = 1E11C1B320335C6300143249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E11C1B120335C6300143249 /* TeamWorksApi */,
+				1E11C1C320335C6300143249 /* TeamWorksApiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E11C1B020335C6300143249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E11C1BA20335C6300143249 /* Assets.xcassets in Resources */,
+				1E11C1BD20335C6300143249 /* Main.storyboard in Resources */,
+				1E4CAB3C2034C10C00D43A4C /* SideBarCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E11C1C220335C6300143249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E134C7837BD527C6AF394E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0D0F349C2DDB3CFAAD386290 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorksApi/Pods-TeamWorksApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E9F70E600F1FEAA05EE899F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		120701E811F55FE7754C6B6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorksApi/Pods-TeamWorksApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE85565C365B6908B7A143E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorksApiTests/Pods-TeamWorksApiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F412393FD06CB4D60304B7D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorksApiTests/Pods-TeamWorksApiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E11C1AE20335C6300143249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E24347320362A310097B10D /* MACollectionView.swift in Sources */,
+				1E11C1DE20335CB200143249 /* TasksServices.swift in Sources */,
+				1E47DB332036027800999E0F /* ActivityVC+Extn.swift in Sources */,
+				1E11C1DC20335CB200143249 /* AuthenticateService.swift in Sources */,
+				1E243477203632250097B10D /* MAWindowController.swift in Sources */,
+				1E11C1E620335CC800143249 /* File3.swift in Sources */,
+				1E11C1E320335CC800143249 /* File4.swift in Sources */,
+				1E243479203632A80097B10D /* ConstantsColors.swift in Sources */,
+				1E11C1DB20335CB200143249 /* AllTasksServices.swift in Sources */,
+				1E4CAB3B2034C10C00D43A4C /* SideBarCell.swift in Sources */,
+				1E11C1ED2033813300143249 /* ActivityVC.swift in Sources */,
+				1E11C1E420335CC800143249 /* File2.swift in Sources */,
+				1E11C1E520335CC800143249 /* File.swift in Sources */,
+				1E4CAB3E2035248500D43A4C /* TableVCell.swift in Sources */,
+				1E11C1DA20335CB200143249 /* RecentActivityServices.swift in Sources */,
+				1E11C1B820335C6300143249 /* LoginVC.swift in Sources */,
+				1E2434D220365AE90097B10D /* MAProgressV.swift in Sources */,
+				1E11C1B620335C6300143249 /* AppDelegate.swift in Sources */,
+				1E11C1DD20335CB200143249 /* ProjectsServices.swift in Sources */,
+				1E11C1E820335FA800143249 /* Constants.swift in Sources */,
+				1E11C1EB2033654300143249 /* MAButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E11C1C020335C6300143249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E11C1C920335C6300143249 /* TeamWorksApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E11C1C620335C6300143249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E11C1B120335C6300143249 /* TeamWorksApi */;
+			targetProxy = 1E11C1C520335C6300143249 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E11C1BB20335C6300143249 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E11C1BC20335C6300143249 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E11C1CB20335C6300143249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E11C1CC20335C6300143249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1E11C1CE20335C6300143249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5D82D3E19507A4DFB1D836 /* Pods-TeamWorksApi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TeamWorksApi/TeamWorksApi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = TeamWorksApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.TeamWorksApi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamWorksApi/Objective-C/TeamWorksApi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1E11C1CF20335C6300143249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A91548785BF07F7B957D18 /* Pods-TeamWorksApi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TeamWorksApi/TeamWorksApi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = TeamWorksApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.TeamWorksApi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamWorksApi/Objective-C/TeamWorksApi-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1E11C1D120335C6300143249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4002136F01F0A171A89D8C /* Pods-TeamWorksApiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = TeamWorksApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.TeamWorksApiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamWorksApi.app/Contents/MacOS/TeamWorksApi";
+			};
+			name = Debug;
+		};
+		1E11C1D220335C6300143249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F14A897C11ACA49F907C31D /* Pods-TeamWorksApiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = TeamWorksApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.TeamWorksApiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamWorksApi.app/Contents/MacOS/TeamWorksApi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E11C1AD20335C6300143249 /* Build configuration list for PBXProject "TeamWorksApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E11C1CB20335C6300143249 /* Debug */,
+				1E11C1CC20335C6300143249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E11C1CD20335C6300143249 /* Build configuration list for PBXNativeTarget "TeamWorksApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E11C1CE20335C6300143249 /* Debug */,
+				1E11C1CF20335C6300143249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E11C1D020335C6300143249 /* Build configuration list for PBXNativeTarget "TeamWorksApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E11C1D120335C6300143249 /* Debug */,
+				1E11C1D220335C6300143249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E11C1AA20335C6300143249 /* Project object */;
+}
